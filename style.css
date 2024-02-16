@@ -49,6 +49,22 @@ body{
     padding: 20px;
 }
 
+@media (max-width:400px) {
+    .card-container{
+        height: 45vh;
+        width: 80vw;
+        /* padding-bottom: 120px; */
+    }
+
+    .card-container button{
+        width: 40vw;
+    }
+
+    .card-container .images .profile{
+        height: 15vh;
+    }
+    
+}
 @media (max-width:500px) {
     .card-container{
         height: 45vh;
